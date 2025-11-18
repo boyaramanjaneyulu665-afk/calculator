@@ -10,9 +10,13 @@ public class CalciDriver {
 		int choice=sc.nextInt();
 		switch(choice) {
 		case 1:{
+			System.out.println("Enter a Value");
+			int a=sc.nextInt();
+			System.out.println("Enter b Value");
+			int b=sc.nextInt();
 			
 			CalciImplementation addition= new CalciImplementation();
-			addition.add(10, 30);
+			System.out.println(addition.add(a,b));
 		}
 		break;
 		
