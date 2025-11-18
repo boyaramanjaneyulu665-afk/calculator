@@ -21,7 +21,7 @@ public class CalciImplementation implements Calci {
 	}
 
 	@Override
-	public double div(int a, int b) {
+	public double div(double a, double b) {
 		// TODO Auto-generated method stub
 		return 0;
 	}
