@@ -19,6 +19,17 @@ public class CalciDriver {
 			System.out.println(addition.add(a,b));
 		}
 		break;
+		case 4:{
+			System.out.println("Enter a Value");
+			double a=sc.nextDouble();
+			System.out.println("Enter b Value");
+			double b=sc.nextDouble();
+			CalciImplementation cm= new CalciImplementation();
+			System.out.println(cm.div(a, b));
+			
+		}
+		break;
+		
 		
 		}
 	}
