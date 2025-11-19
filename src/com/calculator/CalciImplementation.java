@@ -23,8 +23,8 @@ public class CalciImplementation implements Calci {
 
 	@Override
 	public double div(double a, double b) {
-		// TODO Auto-generated method stub
-		return 0;
+		double c=a/b;
+		return c;
 	}
 
 }
